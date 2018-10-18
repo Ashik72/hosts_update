@@ -60,7 +60,7 @@ class hostOptions:
         all_lines = lineSelected[1]
         lineSelected = lineSelected[0]
         if self.check_if_commented(lineSelected) != -1:
-            print("Already disabled")
+            print("Already enabled")
             return
 
         file_write = open("/etc/hosts", "w+")
@@ -101,7 +101,7 @@ class hostOptions:
         all_lines = lineSelected[1]
         lineSelected = lineSelected[0]
         if self.check_if_commented(lineSelected) == -1:
-            print("Already enabled")
+            print("Already disabled")
             return
 
         temp_line = lineSelected.replace('#', '');
