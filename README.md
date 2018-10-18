@@ -1,4 +1,4 @@
-Simple Hosts File Updater for MacOSX
+#Simple Hosts File Updater for MacOSX
 
 Available commands:
 list 
